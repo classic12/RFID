@@ -2,7 +2,7 @@
 <widget xmlns		= "http://www.w3.org/ns/widgets"
 	xmlns:gap	= "http://phonegap.com/ns/1.0"
 	id		= "com.applicationcraft.appc50173a6eb354977ab9e970c84964652"
-	version 	= "0.1.8"
+	version 	= "0.1.9"
         versionCode     = "1">
 
 	<name>testCordova</name>
@@ -35,7 +35,7 @@
         <preference name="errorurl" value="error.html" />
         
         <feature name="http://api.phonegap.com/1.0/network"/>
-<gap:plugin name="com.chariotsolutions.nfc.plugin" version="0.4.8" />
+		<gap:plugin name="com.chariotsolutions.nfc.plugin" version="0.4.8" />
 	<gap:platforms><gap:platform name="android" /><gap:platform name="webos" /><gap:platform name="winphone" /><gap:platform name="ios" /><gap:platform name="symbian.wrt" /><gap:platform name="blackberry" project="widgets"/></gap:platforms>
 
 	<icon src="AppResources/icons/icon.png"/>
