@@ -2,7 +2,7 @@
 <widget xmlns		= "http://www.w3.org/ns/widgets"
 	xmlns:gap	= "http://phonegap.com/ns/1.0"
 	id		= "com.applicationcraft.appc50173a6eb354977ab9e970c84964652"
-	version 	= "0.1.7"
+	version 	= "0.1.8"
         versionCode     = "1">
 
 	<name>testCordova</name>
@@ -18,6 +18,7 @@
 
 	<preference name="orientation" value="any" />
 	<preference name="fullscreen" value="false" />
+
 	<preference name="webviewbounce" value="false" />
 	<preference name="stay-in-webview" value="true" />
 	<preference name="ios-statusbarstyle" value="default" />
@@ -34,10 +35,9 @@
         <preference name="errorurl" value="error.html" />
         
         <feature name="http://api.phonegap.com/1.0/network"/>
-		
-
+<gap:plugin name="com.chariotsolutions.nfc.plugin" version="0.4.8" />
 	<gap:platforms><gap:platform name="android" /><gap:platform name="webos" /><gap:platform name="winphone" /><gap:platform name="ios" /><gap:platform name="symbian.wrt" /><gap:platform name="blackberry" project="widgets"/></gap:platforms>
-	<gap:plugin name="com.eficid.cordova.plugin.rfidscanner" version="0.1.0" />
+
 	<icon src="AppResources/icons/icon.png"/>
 <icon src="AppResources/icons/iphone.png" gap:platform="ios" width="57" height="57" />
 <icon src="AppResources/icons/ipad.png" gap:platform="ios" width="72" height="72" />
