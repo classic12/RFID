@@ -2,7 +2,7 @@
 <widget xmlns		= "http://www.w3.org/ns/widgets"
 	xmlns:gap	= "http://phonegap.com/ns/1.0"
 	id		= "com.applicationcraft.appc50173a6eb354977ab9e970c84964652"
-	version 	= "0.1.13"
+	version 	= "0.1.14"
         versionCode     = "1">
 
 	<name>testCordova</name>
