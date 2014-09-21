@@ -1,0 +1,15 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.applicationcraft.appc50173a6eb354977ab9e970c84964652"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="16" />
+	<intent-filter>
+	  <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+	  <data android:mimeType="text/pg" />
+	  <category android:name="android.intent.category.DEFAULT" />
+	</intent-filter>
+
+	<application />
+
+</manifest>
